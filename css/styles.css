@@ -12,13 +12,14 @@ body {
 	font-family: "Roboto", sans-serif;
 	font-size: 16px;
 }
-/* styles */
+/* ================= components =================*/
 .pfolio-type,
 .auth-link,
 .features-text,
 .team-text {
 	font-weight: 400;
 	line-height: 1.5;
+	letter-spacing: 0.02em;
 	color: var(--primary-text-color);
 }
 .list {
@@ -28,7 +29,7 @@ body {
 .auth-link {
 	text-decoration: none;
 }
-/* logo */
+/* ================= logo =================*/
 
 .logo {
 	color: #4d5ae5;
@@ -39,6 +40,7 @@ body {
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 1.17;
+	letter-spacing: 0.03em;
 }
 .logo-studio {
 	color: #2e2f42;
@@ -49,17 +51,14 @@ body {
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 1.17;
+	letter-spacing: 0.03em;
 }
 
 .logo,
 .logo-studio {
 	text-decoration: none;
 }
-
-/* navigation */
-/* .nav-item {
-	display: none;
-} */
+/* ================= navigation =================*/
 
 .nav-link {
 	color: var(--title-color);
@@ -70,18 +69,19 @@ body {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
+	letter-spacing: 0.02em;
 }
 .nav-link:hover,
 .nav-link:focus {
 	color: var(--accent-color);
 }
 
-/* authorization */
+/* ================= authorization =================*/
 .auth-link:hover,
 .auth-link:focus {
 	color: var(--accent-color);
 }
-/* hero */
+/* ================= hero =================*/
 
 .hero {
 	background-color: var(--title-color);
@@ -92,6 +92,7 @@ body {
 	font-weight: 500;
 	font-size: 56px;
 	line-height: 1.07;
+	letter-spacing: 0.02em;
 }
 .hero-button {
 	background-color: var(--accent-color);
@@ -101,9 +102,10 @@ body {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.19;
+	letter-spacing: 0.04em;
 }
 
-/* features */
+/* ================= features =================*/
 
 .features-title {
 	display: none;
@@ -115,10 +117,9 @@ body {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
+	letter-spacing: 0.02em;
 }
-
-/* what we are doing */
-/* our team */
+/* ================= what we are doing ,our team =================*/
 
 .work-title,
 .team-title {
@@ -127,9 +128,11 @@ body {
 	font-weight: 500;
 	font-size: 36px;
 	line-height: 1.11;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
 }
 
-/* footer */
+/* ================= footer =================*/
 
 .footer {
 	background-color: var(--title-color);
@@ -139,14 +142,14 @@ body {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
+	letter-spacing: 0.02em;
 }
 .logo-footer {
 	color: #f4f4fd;
 }
 
-/* portfolio */
-
-.filter-button {
+/* ================= portfolio =================*/
+* */ .filter-button {
 	background-color: #f4f4fd;
 	color: var(--accent-color);
 	cursor: pointer;
@@ -154,6 +157,7 @@ body {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
+	letter-spacing: 0.04em;
 }
 .filter-button:hover,
 .filter-button:focus {
@@ -170,4 +174,5 @@ body {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
+	letter-spacing: 0.02em;
 }
