@@ -99,6 +99,7 @@ body {
 	color: #ffffff;
 	cursor: pointer;
 
+	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.19;
@@ -131,6 +132,12 @@ body {
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
 }
+.team {
+	background-color: #f4f4fd;
+}
+.team-item {
+	background-color: #ffffff;
+}
 
 /* ================= footer =================*/
 
@@ -149,11 +156,12 @@ body {
 }
 
 /* ================= portfolio =================*/
-* */ .filter-button {
+.filter-button {
 	background-color: #f4f4fd;
 	color: var(--accent-color);
 	cursor: pointer;
 
+	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
